@@ -5,7 +5,7 @@ from streamlit_lottie import st_lottie
 
 
 
-st.set_page_config(page_title='Okus CRM' , page_icon='✔' , layout='wide')
+st.set_page_config(page_title='Controle de Procedimentos RIVOA' , page_icon='✔' , layout='wide')
 st.sidebar.success("Selecione uma página acima.")
 
 
@@ -35,6 +35,6 @@ with st.container():
             A equipe RIVOA atua no segmento da radiologia intervencionista. A especialidade utiliza métodos de imagem como ultrassonografia, RX e tomografia computadorizada para guiar os procedimentos minimamente invasivos.
             """
         )
-        st.write('[Website](https://www.okuscapital.com/)')
+        st.write('[Website](https://rivoa.com.br/)')
     with right_column:
         st_lottie(lottie_animation,height=300,key='finance')

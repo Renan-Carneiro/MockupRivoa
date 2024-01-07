@@ -17,13 +17,13 @@ def load_lottieurl(url):
 
 
 #asset
-lottie_animation = load_lottieurl('https://assets9.lottiefiles.com/packages/lf20_zu3z8n5o.json')
+lottie_animation = load_lottieurl('https://lottie.host/71b5d1e5-c0cc-413a-9332-76e9149aa814/UxkWDNiGoE.json')
 
 #Header
 with st.container():
 
-    st.title('Bem vindo ao CRM da Okus 💵')
-    st.title('Esse é o protótipo de um CRM para ser utilizado pelos assessores')
+    st.title('Bem vindo(a)')
+    st.title('Esse é um mockup de Controle de Procedimentos da RIVOA')
     st.subheader('Criado por Renan Carneiro')
 with st.container():
     st.write("---")
@@ -32,7 +32,7 @@ with st.container():
         st.header('Quem somos nós')
         st.write(
             """
-            Somos um escritório de assessoria de investimentos, com sede em Poços de Caldas - MG
+            A equipe RIVOA atua no segmento da radiologia intervencionista. A especialidade utiliza métodos de imagem como ultrassonografia, RX e tomografia computadorizada para guiar os procedimentos minimamente invasivos.
             """
         )
         st.write('[Website](https://www.okuscapital.com/)')

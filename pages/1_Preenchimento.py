@@ -99,7 +99,7 @@ def embed_jotform_iframe():
     }
     </script>
     """
-    st.components.v1.html(iframe, height=600)
+    st.components.v1.html(iframe, height=2500)
 
 # Example usage
 st.title("Formulario Rivoa")

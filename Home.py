@@ -24,12 +24,12 @@ with st.container():
 
     st.title('Bem vindo(a)')
     st.title('Esse é um mockup de Controle de Procedimentos da RIVOA')
-    st.subheader('Criado por Renan Carneiro')
+    st.subheader('Usar a barra de navegação ao lado para navegar')
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)
     with left_column:
-        st.header('Quem somos nós')
+        st.header('Rivoa')
         st.write(
             """
             A equipe RIVOA atua no segmento da radiologia intervencionista. A especialidade utiliza métodos de imagem como ultrassonografia, RX e tomografia computadorizada para guiar os procedimentos minimamente invasivos.

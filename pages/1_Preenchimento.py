@@ -1,8 +1,4 @@
 import streamlit as st
-import requests
-
-from streamlit_lottie import st_lottie
-
 def embed_jotform_iframe():
     iframe = """
     <iframe
@@ -103,15 +99,6 @@ def embed_jotform_iframe():
     </script>
     """
     st.components.v1.html(iframe, height=2500)
-
-    def load_lottieurl(url):
-        r = requests.get(url)
-        if r.status_code != 200:
-            return None
-        return r.json()
-
-    # asset
-    lottie_animation = load_lottieurl('https://lottie.host/35a50430-4098-4771-92fe-03ea606fb0c8/arepI07125.json')
 
 # Example usage
 st.title("Formulario Rivoa")

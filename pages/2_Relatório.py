@@ -30,5 +30,4 @@ def show_sensitive_page():
         embed_jotform_alternative()
 
 # Example usage
-st.title("Relatório")
 show_sensitive_page()

@@ -23,8 +23,8 @@ lottie_animation = load_lottieurl('https://lottie.host/71b5d1e5-c0cc-413a-9332-7
 with st.container():
 
     st.title('Bem vindo(a)')
-    st.title('Esse é um mockup de Controle de Procedimentos da RIVOA')
-    st.subheader('Usar a barra de navegação ao lado para navegar')
+    st.title('Controle de Procedimentos da RIVOA')
+    st.subheader('Use a barra de navegação ao lado para navegar')
 with st.container():
     st.write("---")
     left_column, right_column = st.columns(2)

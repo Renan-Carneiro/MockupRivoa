@@ -23,7 +23,7 @@ lottie_animation = load_lottieurl('https://lottie.host/71b5d1e5-c0cc-413a-9332-7
 with st.container():
 
     st.title('Bem vindo(a)')
-    st.title('Controle de Procedimentos da RIVOA')
+    st.title('Controle de Procedimentos RIVOA')
     st.subheader('Use a barra de navegação ao lado para navegar')
 with st.container():
     st.write("---")

@@ -13,11 +13,20 @@ def embed_jotform_alternative():
 def show_sensitive_page():
     st.title("Relatório")
 
-    password = st.text_input("Enter Password:", type="password")
+    # Create an empty container for the text input
+    password_input = st.empty()
 
+    # Get the user input from the session state
+    password = st.session_state.get("password", "")
+
+    # Check if the user input matches the password
     if not authenticate(password):
+        # Display the text input box
+        password_input.text_input("Enter Password:", value=password, type="password", key="password")
         st.error("Authentication failed. Access denied.")
     else:
+        # Clear the text input box
+        password_input.empty()
         embed_jotform_alternative()
 
 # Example usage

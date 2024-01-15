@@ -2,7 +2,7 @@ import streamlit as st
 
 def authenticate(password):
     # Hardcoded password for demonstration purposes
-    return password == "flebografia"
+    return password == st.secrets["db_senha"]
 def embed_jotform_alternative():
     html_code = """
     <div class="jotform-embed" style="min-height: 1px;" data-id="23339603950805806" data-type="interactive" data-iframesource="www.jotform.com"></div>
@@ -22,7 +22,7 @@ def show_sensitive_page():
     # Check if the user input matches the password
     if not authenticate(password):
         # Display the text input box
-        password_input.text_input("Enter Password:", value=password, type="password", key="password")
+        password_input.text_input("Digite aqui a senha:", value=password, type="password", key="password")
         st.error("Authentication failed. Access denied.")
     else:
         # Clear the text input box

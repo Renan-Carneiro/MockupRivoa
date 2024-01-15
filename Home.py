@@ -37,4 +37,4 @@ with st.container():
         )
         st.write('[Website](https://rivoa.com.br/)')
     with right_column:
-        st_lottie(lottie_animation,height=300,key='finance')
+        st_lottie(lottie_animation,height=300,key='medicos')
